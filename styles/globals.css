@@ -137,6 +137,9 @@ span.text-red {
   width: 100%;
 
 }
+.hero-banner-container h3, p {
+  margin-left: -15px;
+}
 .hero-banner-container .beats-solo{
   font-size: 20px;
 }
@@ -221,7 +224,7 @@ text-align: end;
   line-height: 1;
   color: white;
   width: 100%;
-  margin-top: 120px;
+  margin-top: 200px;
 }
 .banner-desc{
   display: flex ;
@@ -632,8 +635,8 @@ padding: 6px;
     height: 560px;
   }
   .hero-banner-image{
-    width: 77%;
-    height: 62%;
+    width: 70%;
+    height: 440px;
     top: 10%;
     right: 0%;
   }
@@ -643,7 +646,7 @@ padding: 6px;
   .footer-banner-image{
     width: 50%;
     left: 23%;
-    margin-top: 117px;
+    margin-top: 102px;
     /* top: 6%;
     height: 56% */
   }
@@ -672,7 +675,7 @@ padding: 6px;
     line-height: 1.3;
   }
   .hero-banner-container h1{
-    font-size: 50px;
+    font-size: 7em;
   }
   .hero-banner-container h3{
     font-size: 40px;
@@ -693,7 +696,7 @@ padding: 6px;
   }
   .cart-container{
     width: 415px;
-  padding: 4px;
+    padding: 4px;
   }
   .cart-heading{
     margin-top: 35px;
@@ -774,5 +777,16 @@ padding: 6px;
 @media screen and (max-width:550px) {
   .footer-banner-container {
     height: 100%;
+  }
+  .footer-banner-image {
+    left: 43%;
+    margin-top: 300px;
+  }
+  .hero-banner-image{
+    width: 65%;
+    height: auto;
+  }
+  .hero-banner-container h1 {
+    font-size: 5em;
   }
 }
