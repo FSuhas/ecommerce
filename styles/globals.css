@@ -505,7 +505,7 @@ text-align: end;
 }
 .quantity-desc{
   border: 1px solid gray;
-padding: 6px;
+  padding: 6px;
 }
 .quantity-desc span{
   font-size: 16px;
@@ -602,10 +602,10 @@ padding: 6px;
     height: 560px;
   }
   .hero-banner-image{
-    width: 77%;
-    height: 62%;
+    width: 50%;
+    height: 55%;
     top: -2%;
-    right: -6%;
+    right: 6%;
   }
   .footer-banner-container{
     height: 560px;
@@ -652,7 +652,7 @@ padding: 6px;
     z-index: 10000;
   }
   .desc{
-  bottom: 60px;
+    bottom: 60px;
   }
   .product-detail-container{
     flex-wrap: wrap;
@@ -663,7 +663,7 @@ padding: 6px;
   }
   .cart-container{
     width: 415px;
-  padding: 4px;
+    padding: 4px;
   }
   .cart-heading{
     margin-top: 35px;
