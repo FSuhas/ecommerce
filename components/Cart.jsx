@@ -75,14 +75,14 @@ const Cart = () => {
                     <span className="minus" onClick={() => toggleCartItemQuanitity(item._id, 'dec') }>
                     <AiOutlineMinus />
                     </span>
-                    <span className="num" onClick="">{item.quantity}</span>
+                    <span className="num" onClick={``} >{item.quantity}</span>
                     <span className="plus" onClick={() => toggleCartItemQuanitity(item._id, 'inc') }><AiOutlinePlus /></span>
                   </p>
                   </div>
                   <button
                     type="button"
                     className="remove-item"
-                    onClick={`() => onRemove(item)`}
+                    onClick={() => onRemove(item)}
                   >
                     <TiDeleteOutline />
                   </button>
@@ -98,7 +98,7 @@ const Cart = () => {
               <h3>${totalPrice}</h3>
             </div>
             <div className="btn-container">
-              <button type="button" className="btn" onClick={handleCheckout}>
+              <button type="button" className="btn" onClick={handleCheckout} method="post">
                 Pay with Stripe
               </button>
             </div>
