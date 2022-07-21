@@ -137,11 +137,10 @@ span.text-red {
   width: 100%;
 
 }
-.hero-banner-container h3, p {
-  margin-left: -15px;
-}
+
 .hero-banner-container .beats-solo{
   font-size: 20px;
+  margin-left: -15px;
 }
 .hero-banner-container button{
   border-radius: 15px;
@@ -160,7 +159,7 @@ span.text-red {
 }
 
 .hero-banner-container h3{
-  font-size: 4rem;
+  font-size: 4rem !important;
   margin-top: 4px;
 }
 .hero-banner-container h1{
@@ -236,7 +235,7 @@ text-align: end;
   background-color: white;
   color: red;
   border: none;
-  margin-top: 40px;
+  margin-top: 30px;
   font-size: 18px;
   font-weight: 500;
   cursor: pointer;
@@ -678,7 +677,7 @@ padding: 6px;
     font-size: 7em;
   }
   .hero-banner-container h3{
-    font-size: 40px;
+    font-size: 40px !important;
   }
   .hero-banner-container button{
     margin-top: 90px;
@@ -786,10 +785,11 @@ padding: 6px;
   .hero-banner-container h1 {
     font-size: 5em;
   }
-  .hero-banner-container h3, p {
-    margin-left: 0 !important;
-  }
   .reviews p {
     margin-bottom: 3px !important;
   }
+  .banner-desc button {
+    position: relative;
+    left: 28%;
+}
 }
